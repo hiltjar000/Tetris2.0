@@ -20,7 +20,7 @@ public class Game extends Menu {
         super(input, size);
         setLayout(new BorderLayout());
         JButton button = new JButton("Button1" );
-
+        pane.add(button, BorderLayout._____);
 
     }
 

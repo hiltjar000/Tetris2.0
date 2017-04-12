@@ -16,12 +16,12 @@ public abstract class Menu extends JPanel{
     private final int TEXT_COUNTERSIZE = 20;
     private long time;
     Input input;
-    ContentPane pane
+    Container pane;
 
     Menu(){
         setVisible(true);
         setBackground(Color.BLACK);
-        pane = getContentPane();
+
     }
 
 
